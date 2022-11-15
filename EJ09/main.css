@@ -10,6 +10,10 @@ img {
     filter: saturate(0);
 }
 
+.sinfiltro{
+    filter: none;
+}
+
 a:hover img {
     filter: saturate(1);
 }
@@ -52,3 +56,4 @@ h2{
 .linea p:hover{
     background-color: aliceblue;
 }
+
