@@ -314,9 +314,9 @@ button a{
     }
 
     .contacto h2,#contcont{
-        margin-right: auto;
-        margin-left: auto;
-        width: 400px;
+        margin-right: 20%;
+        margin-left: 10%;
+        width: 80%;
     }
 
 
