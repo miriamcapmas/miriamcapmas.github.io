@@ -4,43 +4,390 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <link rel="stylesheet" href="estilo.css">
-    <title>MIRIAM</title>
+    <title>Portfolio personal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
-    
+
+  <!-- Menú navegación -->
     <header>
-        <h1>Técnicas de producción y edición I</h1>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Miriam Caparrós</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">¿Quién soy?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#carrusel">Dibujos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Proyectos web
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="EJ08/index.html">ElPaís</a></li>
+                      <li><a class="dropdown-item" href="EJ10/index.html">Galería</a></li>
+                      <li><a class="dropdown-item" href="Casting tipografico/index.html">Cásting tipográfico</a></li>
+                      <li><a class="dropdown-item" href="Diseño responsive/index.html">Evernote</a></li>
+                      <li><a class="dropdown-item" href="Nike Bootstrap/Nike Bootstrap/index.html">Nike Bootstrap</a></li>
+                      <li><a class="dropdown-item" href="https://proyectomir.wordpress.com/#">Wordpress</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <div id="menu"> </div>
-
-    <section class="contenedor">
-        <div class="caja">
-            <a href="EJ08/index.html">EJERCICIO 8</a><br>
+    <main>
+     <!-- Página principal -->
+    <section>
+        <div class="paginaPrincipal">
+            <div id="título">
+                <h4>hola, soy</h4>
+                <H1>
+                    Miriam Caparrós
+                </H1>
+                <h2>estudiante de Diseño Gráfico</h2>
+            </div>
         </div>
-
-        <div class="caja">
-            <a href="EJ09/index.html">EJERCICIO 9</a>
-        </div>
-
-        <div class="caja">
-            <a href="EJ10/index.html">EJERCICIO 10</a>
-        </div>
-
-        <div class="caja">
-            <a href="PRUEBA EXAMEN/index.html">PRUEBA EXAMEN</a>
-        </div>
-
-        <div class="caja">
-            <a href="EXAMEN/index.html">EXAMEN</a>
-        </div>
-    
-    
-    
     </section>
-   
+
+      <!-- Presentación -->
+        <section class="home" id="home">
+            <div class="container text-center" id="SobreMi">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <img id="imagen" src="assets/imgs/fotomia.PNG" class= "img-thumbnail" alt="">
+                  </div>
+                  <div class="col" >
+                    <h2>Miriam Caparrós</h2>
+                    <h3>Diseñadora gráfica</h3>
+                    <p>Bienvenido a mi portfolio. Aquí podrás conocerme mejor, saber a que me dedico y cuales son los servicios que ofrezco, además de mis habilidades. También encontrarás muchos de los trabajos que he realizado, tanto proyectos realizados en la carrera como algunos remunerados. Asimismo, podrás conocer mi faceta como dibujante. </p>
+                    <p> <a href="https://www.instagram.com/mircapdesigns/"><img class="icono" src="assets/icons/instagram.png" alt=""></a>
+                        <a href="https://twitter.com/miriaamcap"><img class="icono" src="assets/icons/gorjeo.png" alt=""></a> 
+                        <a href="#"></a><img class="icono" src="assets/icons/correo-electronico.png"></a></p>
+                    </p>
+
+                  </div>
+                
+                </div>
+              </div>
+        </section>
+        
+<hr>
+         <!-- Servicios -->
+         <section class="servicios" id="servicios">
+            <div class="infoServicios">
+            <h3>Servicios</h3>
+            <h2>¿Qué es lo que hago?</h2>
+            <p>Estos son los servicios que puedo ofrecer, al dedicarme al diseño gráfico hay muchos ámbitos en los que puedo trabajar.</p>
+            </div>
+            
+            <div id="especialidades" class="container text-center">
+                <button type="button" class="btn btn-primary">Diseño Web</button>
+                <button type="button" class="btn btn-primary">Diseño Gráfico</button>
+                <button type="button" class="btn btn-primary">Ilustración</button>
+                <button type="button" class="btn btn-primary">Modelación 3D</button>
+                <button type="button" class="btn btn-primary">Diseño de videojuegos 2D/3D</button>
+                  </div>
+                </div>
+              </div>
+
+
+        </section>
+<hr>
+          <!-- Skills -->
+              <section class="barra" id="skills">
+                  <div class="infobarra">
+                  <h3>Skills</h3>
+                  <h2>¿Cuáles son mis fortalezas?</h2>
+                  <p>Este es un porcentaje del manejo que poseo según el programa que utilice.</p>
+                  </div>
+                  <div class="barras">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  
+                <h6>Photoshop</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  
+                <h6>Illustrator</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h6>InDesign</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h6>HTML y CSS</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h6>Wordpress</h6>
+                  </div>
+              </section>
+
+<hr>
+              <!-- Gallería -->
+              <section class="galeria" id="galeria">
+                  <div class="infoGaleria">
+                      <h3>Mi trabajo</h3>
+                      <h2>¿Qué es lo que hago?</h2>
+                      <p>Esta galería de imágenes consiste en algunos de los proyectos de diseño que he realizado para clase. Encontramos desde carteles y branding hasta fotografía o editorial.</p>
+                      </div>
+                      
+                  <div class="row">
+                      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img
+                          src="assets/imgs/Previsualización_Exterior.jpg"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Boat on Calm Water"
+                        />
+                    
+                        <img
+                          src="assets/imgs/Rectificación infografía.png"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Wintry Mountain Landscape"
+                        />
+                      </div>
+                    
+                      <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img
+                          src="assets/imgs/Cartel.png"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Mountains in the Clouds"
+                        />
+                    
+                        <img
+                          src="assets/imgs/patrón con logo.png"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Boat on Calm Water"
+                        />
+                      </div>
+                    
+                      <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img
+                          src="assets/imgs/folleto.png"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Waves at Sea"
+                        />
+                    
+                        <img
+                          src="assets/imgs/cartel concierto.PNG"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Yosemite National Park"
+                        />
+                      </div>
+                    </div>
+              </section>
+<hr>
+
+            <!-- Trabajos web -->
+
+            <section class="trabajosWeb" id="web">
+              <div class="infoWeb">
+                <h3>Actividades web</h3>
+                <h2>Diseño web</h2>
+                <p>Aquí se encuentran algunas de las activididades realizadas para la asignatura de Técnicas de producción y edición digital.</p>
+              </div>
+
+              <div id="colTrabajos" class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="assets/imgs/elpais.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Artículo ElPaís</h5>
+                        <p class="card-text">Realización de un artículo del periódico ElPaís para comenzar a comprender los conceptos del html y el css.
+                        </p>
+                        <a href="EJ08/index.html">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="assets/imgs/galeria.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Galería de imágenes</h5>
+                        <p class="card-text">Creación de una galería de imágenes, de temática libre, para saber utilizar flex y hover.</p>
+                        <a href="EJ10/index.html">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="assets/imgs/tipografia.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cásting tipográfico</h5>
+                        <p class="card-text">Creación de un cásting tipográfico para saber introducir fuentes exportadas en nuestra página web.</p>
+                        <a href="Casting tipografico/index.html">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+  <hr>
+        <!-- Dibujos -->
+
+        <div class="infoDib">
+          <h3>Galería de dibujos</h3>
+          <h2>Ilustración</h2>
+          <p>Estos son algunos de los dibujos que realicé durante mi etapa en Bachillerato de Artes plásticas.</p>
+        </div>
+        
+        <section class="dibujos" id="carrusel">
+         
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" >
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/imgs/aaaaaa.PNG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/imgs/IMG_20230123_215733.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/imgs/IMG_20230123_215803.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+        </section>
+        
+          <!-- Contacto -->
+        <section class="contacto" id="contacto">
+          <hr id="linea">
+          <div>
+                <h2>Contáctame</h2>
+                <p>Puedes contactar conmigo en cualquier momento, en menos de 24h recibirás respuesta.</p>
+          </div>
+            <div class="container py-4" id="contcont">
+                <form id="contactForm">
+                  <div class="mb-3">
+                    <label class="form-label" for="name">Nombre</label>
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Email Address</label>
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                  </div>
+              
+                  <div class="mb-3">
+                    <label class="form-label" for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                  </div>
+              
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">Mensaje enviado</div>
+                  </div>
+              
+                  <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error enviando el mensaje</div>
+                  </div>
+              
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit"> Enviar </button>
+                  </div>
+              
+                </form>
+  
+            </div>
+                  </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  </section>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Miriam Caparrós
+          </h6>
+          <p>
+            Diseñadora gráfica, 21 años.
+            Diseño web.
+            Ilustración.
+            Juegos 3D/2D. Modelado 3D.
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Diseños</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ilustraciones</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Modelados</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p> Elche, Alicante</p>
+          <p>
+            miriamcaparros@alu.easda.es
+          </p>
+          <p> + 01 234 567 88</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2021 Copyright
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
+
+
+<footer></footer>
 </html>
