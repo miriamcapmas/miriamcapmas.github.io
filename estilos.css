@@ -243,6 +243,9 @@ button a{
 
 
 @media (max-width:992px){
+    main{
+        width: 100%;
+    }
     #título{
         margin-left: 10%;
     }
@@ -313,12 +316,13 @@ button a{
     }
 
     .contacto h2,#contcont{
-        margin-right: 15%;
+        margin-right: 40%;
         margin-left: 5%;
         
-        width: 480px;
+        width: 450px;
         
     }
+
 
     .infoDib p{
     text-align: center;
@@ -336,7 +340,7 @@ button a{
     
     footer p{
         text-align: center;
-        margin:auto;
+        width: 100%;
     }
 }
 
