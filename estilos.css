@@ -248,8 +248,8 @@ button a{
         margin-left: 10%;
     }
     #imagen{
-        height: 200px;
-        width: 200px;
+        height: 190px;
+        width: 190px;
         border-radius: 10em;
     }
     #SobreMi{
@@ -314,11 +314,9 @@ button a{
     }
 
     .contacto h2,#contcont{
-        margin-right: 40%;
-        margin-left: 5%;
-        
-        width: 450px;
-        
+        margin-right: auto;
+        margin-left: auto;
+        width: 400px;
     }
 
 
